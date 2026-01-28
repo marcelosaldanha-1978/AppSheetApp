@@ -1,4 +1,4 @@
-# Transformar Planilha GCACL_BAAPLOG_v1_1 em Google Sheets
+# Transformar Planilha GCACL_BAAPLOG_v_teste em Google Sheets
 
 ## Passo a Passo
 
@@ -6,7 +6,7 @@
 
 1. Acesse [Google Drive](https://drive.google.com)
 2. Navegue até a pasta desejada ou crie uma nova
-3. Faça upload do arquivo `GCACL_BAAPLOG_v1_1.xlsx` (ou `.xls`, `.csv`, `.ods`) localizado em:
+3. Faça upload do arquivo `GCACL_BAAPLOG_v_teste.xlsx` localizado em:
    ```
    D:\_BACKUP_REORGANIZACAO\20260125_205315\Documentos\GCACL_BAAPLOG\GCALC_PROJETO\DADOS_PARA_IMPORTAR
    ```
@@ -44,7 +44,7 @@
 
 Após a execução, você terá:
 - Um novo Google Sheet na pasta `GCACL_BAAPLOG_GoogleSheets` no seu Drive
-- Nome no formato: `GSheet_GCACL_BAAPLOG_v1_1_YYYYMMDD_HHmmss`
+- Nome no formato: `GSheet_GCACL_BAAPLOG_v_teste_YYYYMMDD_HHmmss`
 - Formatação aplicada automaticamente:
   - Cabeçalhos em negrito com fundo azul
   - Primeira linha congelada

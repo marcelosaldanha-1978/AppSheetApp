@@ -1,11 +1,11 @@
 /**
  * TransformToGoogleSheet.js
  *
- * Script para transformar a planilha GCACL_BAAPLOG_v1_1 (Excel/CSV)
+ * Script para transformar a planilha GCACL_BAAPLOG_v_teste (Excel/CSV)
  * em Google Sheets no Google Drive.
  *
  * INSTRUÇÕES DE USO:
- * 1. Faça upload da planilha GCACL_BAAPLOG_v1_1 para o Google Drive
+ * 1. Faça upload da planilha GCACL_BAAPLOG_v_teste.xlsx para o Google Drive
  * 2. Copie este script para um projeto Google Apps Script (script.google.com)
  * 3. Execute a função transformSpreadsheet()
  * 4. Autorize as permissões solicitadas
@@ -17,7 +17,7 @@
 // ============================================================
 const CONFIG = {
   // Nome do arquivo de origem (sem extensão)
-  SOURCE_FILE_NAME: "GCACL_BAAPLOG_v1_1",
+  SOURCE_FILE_NAME: "GCACL_BAAPLOG_v_teste",
 
   // Pasta de destino no Google Drive (deixe vazio para a raiz)
   DESTINATION_FOLDER_NAME: "GCACL_BAAPLOG_GoogleSheets",
